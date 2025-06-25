@@ -33,10 +33,10 @@ export default function Home() {
       const defaultCourses: Course[] = [
         {
           id: "1",
-          code: "CSE 115",
-          name: "Computer Science",
-          term: "Fall 2025",
-          color: "blue",
+          code: "CEC 213",
+          name: "Computer Programming I",
+          term: "1st Semester 2023",
+          color: "indigo",
           notes: [
             {
               id: "1",
@@ -50,33 +50,7 @@ export default function Home() {
           ],
           categories: [...defaultCategories],
         },
-        {
-          id: "2",
-          code: "FRE 102",
-          name: "Mathematics",
-          term: "Fall 2025",
-          color: "purple",
-          notes: [],
-          categories: [...defaultCategories],
-        },
-        {
-          id: "3",
-          code: "CHE 101",
-          name: "Chemistry",
-          term: "Fall 2025",
-          color: "green",
-          notes: [],
-          categories: [...defaultCategories],
-        },
-        {
-          id: "4",
-          code: "PSY 101",
-          name: "Psychology",
-          term: "Fall 2025",
-          color: "yellow",
-          notes: [],
-          categories: [...defaultCategories],
-        },
+        
       ]
       setCourses(defaultCourses)
       localStorage.setItem("brainboost-courses", JSON.stringify(defaultCourses))
