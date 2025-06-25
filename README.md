@@ -60,3 +60,4 @@ Brain Boost AI is an intelligent assistant designed to supercharge your study se
 ```bash
 git clone https://github.com/your-org/brain-boost-ai.git
 cd brain-boost-ai
+npm i
